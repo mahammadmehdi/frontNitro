@@ -1,0 +1,28 @@
+.wishlistPage{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    .pages{
+        width: 800px;
+        height: 500px;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-between;
+       padding: 5%;
+       .icon{
+        font-size: 48px;
+        color: #007bff;
+    }
+    .name{
+        font-size: 30px;
+
+    }
+    .desc{
+        font-size: 26px;
+        color: #808080;
+    }
+    }
+}

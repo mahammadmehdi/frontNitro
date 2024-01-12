@@ -1,0 +1,61 @@
+.navigation {
+  background-image: url("https://preview.colorlib.com/theme/nitro/images/hero_2.jpg.webp");
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  .navbar {
+    width: 100%;
+    height: 15vh;
+    border-bottom: 1px solid black;
+    .head {
+      display: flex;
+      width: 60%;
+      justify-content: space-between;
+      margin: auto;
+      align-items: center;
+      height: 15vh;
+      .left {
+        cursor: pointer;
+        font-size: 32px;
+      }
+      .right {
+        .pages {
+          display: flex;
+          gap: 50px;
+          li {
+            cursor: pointer;
+            font-size: 16px;
+          }
+        }
+      }
+    }
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    padding-bottom: 20%;
+  .welcome {
+    font-size: 48px;
+    color: white;
+    line-height: 58px;
+  }
+  .text {
+    font-size: 22.4px;
+    line-height: 33.6px;
+    color: white;
+  }
+  .btn {
+    width: 156px;
+    height: 46px;
+    font-size: 16px;
+    background-color: #007bff;
+    border-radius: 30px;
+    border: none;
+  }
+}
+}

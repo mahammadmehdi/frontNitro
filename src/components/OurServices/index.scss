@@ -1,0 +1,60 @@
+.ourServices{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 5%;
+    .head{
+display: flex;
+justify-content: center;
+font-size: 40px;
+color: #007bff;
+    }
+    .input{
+        display: flex;
+        justify-content: space-between;
+        width: 60%;
+        margin: auto;
+        margin-top: 2%;
+        button{
+            width: 120px;
+            height: 50px;
+            background-color: #007bff;
+            border: none;
+        }
+    }
+    .ourServicesCards{
+        width: 60%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding-top: 5%;
+        
+        .card{
+            width: 325px;
+            height: 238px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            .wishlist{
+                cursor: pointer;
+            }
+            a{
+                color: #007bff;
+            }
+            .icon{
+                font-size: 48px;
+                color: #007bff;
+            }
+            .name{
+                font-size: 20px;
+
+            }
+            .desc{
+                font-size: 16px;
+                color: #808080;
+            }
+        }
+    }
+}
